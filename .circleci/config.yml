@@ -13,8 +13,8 @@ jobs:
       - run:
           name: Horusec Security Test
           command: |
-            curl -fsSL https://horusec.io/bin/install.sh | bash
-            horusec start -p="./" -e="true"
+            curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
+            horusec start -p="./" -e="true"            
 workflows:
   pipeline:
     jobs:
