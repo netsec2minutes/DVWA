@@ -12,7 +12,7 @@ $page[ 'page_id' ] = 'home';
 $page[ 'body' ] .= "
 <div class=\"body_padded\">
 	<h1>CUSTOM</h1>
-
+        Novo build
 	<h2>More Training Resources</h2>
 	<p>DVWA aims to cover the most commonly seen vulnerabilities found in today's web applications. However there are plenty of other issues with web applications. Should you wish to explore any additional attack vectors, or want more difficult challenges, you may wish to look into the following other projects:</p>
 	<ul>
